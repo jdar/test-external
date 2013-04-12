@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems/
   specs:
     builder (3.0.0)
     capybara (1.1.2)
@@ -28,6 +28,7 @@ GEM
     rack (1.4.0)
     rack-test (0.6.1)
       rack (>= 1.0)
+    rake (10.0.4)
     rspec (2.8.0)
       rspec-core (~> 2.8.0)
       rspec-expectations (~> 2.8.0)
@@ -52,4 +53,5 @@ PLATFORMS
 DEPENDENCIES
   capybara (~> 1.1.2)
   cucumber (~> 1.1.4)
+  rake
   rspec (~> 2.8.0)
